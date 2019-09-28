@@ -19,15 +19,15 @@ class Triangle
   	end
 
 
-  	def max_length
-    	#longest side of triangle
-    	all.sort.last
+  	# def max_length
+   #  	#longest side of triangle
+   #  	all.sort.last
   	end
 
   	def has_side?
     	#not a triange if any side <= 0 
     	if all.any? {|side| side <= 0}
-    		false
+    		#false
     	end
     	
   	end
